@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julio Maravilla</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" type="image/png" href="../img/favicon.png">
+  <link rel="stylesheet" href="../css/mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+
+<body>
+
+  <nav id="desktop-nav">
+
+    <!---->
+    <div class="logo">
+      <img class="imagen" src="../img/logo.png" alt="Julio Maravilla">
+    </div>
+    <div>
+
+      <ul class="nav-links">
+
+        <li><a href="../en/index_en.html"><i class="fa-solid fa-house"></i> Start</a>
+        </li>
+        <li><a href="../en/Perfil.html"><i class="fa-solid fa-address-card"></i> Profile</a></li>
+        <li><a href="../en/habilidades.html"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
+        <li><a href="../en/Proyectos.html"><i class="fa-solid fa-briefcase"></i> Proyectos</a></li>
+        <li><a href="../en/contacto.html"><i class="fa fa-envelope "></i> Contact</a></li>
+        <span class="es">Spanish</span>
+        <input type="checkbox" class="check" checked>
+        <span class="en">English</span>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <img class="imagen" src="../img/logo.png" alt="Julio Maravilla">
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="../en/index_en.html" onclick="toggleMenu()">Start</a></li>
+        <li><a href="../en/Perfil.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="../en/Proyectos.html" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="../en/habilidades.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="../en/contacto.html" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="https://juliomaravilla.netlify.app/" onclick="toggleMenu()">Traducir</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile" class="id-image">
+    <div class="section__pic-container">
+      <img class="foto_prin" src="../img/foto.png" alt="John Doe profile picture" />
+    </div>
+
+    <div class="section__text">
+      <p class="section__text__p1">Hello I am </p>
+      <h1 class="title">Julio Maravilla</h1>
+      <p class="section__text__p2">Backend developer</p>
+      <h3>Transforming ideas into experiences, technology and creativity.</h3>
+
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('../img/Currículum_Vitae_en.pdf')">
+          Download CV
+        </button>
+        <!--button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contacto Info
+          </!--button-->
+      </div>
+      <div id="socials-container">
+        <h1><a href="https://www.linkedin.com/in/juliomaravilla"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></h1>
+        <h1><a href="https://github.com/JulioMaravilla"><i class="fa-brands fa-github"></i> Github</a></h1>
+
+      </div>
+    </div>
+
+  </section>
+  <section id="about" class="about_css">
+    <p class="section__text__p1">Learn more about me</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="../img/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Human Resources Administrative Assistant Internship at the<br />Attorney for the Defense of
+              Human Rights (PDDH).</p>
+          </div>
+          <div class="details-container">
+            <img src="../img/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Accounting Administrative Technician.<br />Engineering student in Computer Systems and Networks.</p>
+          </div>
+          <div class="details-container">
+            <img src="../img/checkmark.png" alt="Education icon" class="icon" />
+            <h3>Logros y Reconociminetos</h3>
+            <p>1st Place in Line Follower Car Competition.<br />Certification in CCNAv7: Switching, Routing
+              and Wireless Essentials.</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="descripcion">
+            Hello! I am Julio Maravilla, a passionate systems engineering student with a background
+            administration and accounting technician. My fascination with technology and programming
+            has led to exploring various fields within computer sciences. Since I was young,
+            I have found in video games a source of inspiration and entertainment, which has driven me
+            to enter the world of software development. I enjoy getting into the complexity of systems
+            modern operations and delve into the
+            Information systems design and analyses. My curiosity to learn new languages
+            programming has led me to master Java, Python and PHP, finding powerful tools in them
+            to materialize my ideas and projects.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <!--p class="section__text__p1">Explore My</p-->
+    <h1 class="title">Experience and Interests</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Development Environment</h2>
+          <div class="article-container">
+            <article>
+              <img src="../img/html.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/css.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate level</p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/python.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Basic level</p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/Javascrip.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/mongodb.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/nodejs.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/git.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/github.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Github</h3>
+                <p>Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/php.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PHP</h3>
+                <p>Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="../img/laravel.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Laravel</h3>
+                <p>Intermediate </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!--parte dos-->
+        <div class="details-container">
+          <h2 class="experience-sub-title">Interests</h2>
+          <div class="article-container">
+            <article>
+              <img src="../img/game.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Games</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/music.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Music</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/camara.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Photos</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/corriendo.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Sports</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/avion.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Trips</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/frito.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Cook</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/acamapar.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>To camp</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../img/programacion.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Programming</h3>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--img
+        src="../arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /-->
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">See my most recent works</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/second_language.jpg" alt="project 1" class="project-img" />
+          </div>
+          <article></article>
+          <h2 class="experience-sub-title project-title">Second Language</h2>
+          <div class="text-container">
+            <p>As part of my professional experience, I have had the opportunity to develop a
+              desktop as a language learning platform called Second Language. This project was
+              built using modern technologies like C#. I focused on applying clean code principles
+              and
+              good development practices to ensure an efficient and high-quality final product.</p>
+            <br></br>
+          </div>
+          <div class="btn-container">
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='../en/Web_Second.html'">
+              See More
+            </button>
+
+          </div>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/derecho.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+          <h2 class="experience-sub-title project-title">Student Law</h2>
+          <div class="text-container">
+            <p>Student Law is an online website dedicated to informing and educating students about their
+              rights and obligations. We focus on providing clear and concise information about rights
+              legal rights that students have in the educational field, as well as highlighting the obligations they
+              must
+              achieve.</p>
+            <br></br>
+          </div>
+          <div class="btn-container">
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='../en/Web_Derecho.html'">
+              See More
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://juliomaravilla.github.io/derecho/'">
+              Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/paginaweb.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+          <h2 class="experience-sub-title project-title">Gizzi Dental Clinic</h2>
+          <div class="text-container">
+            <p>Throughout my career, I have had the opportunity to develop a website for a
+              dental clinic called Clínica Gizzi. This project was created using technologies such as Angular, HTML,
+              CSS and JavaScript. Additionally, I focused on applying clean code principles to ensure smooth
+              development.
+              efficient and quality.</p>
+            <br></br>
+          </div>
+          <div class="btn-container">
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='../en/Web_Gizzi.html'">
+              See More
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://clinica-gizi.webnode.es/'">
+              Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="certific" class="certific">
+    <h1 class="title">Certificates</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/banco.png" alt="project 1" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/excel.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/aws.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+      </div>
+    </div>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/image.png" alt="project 1" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/1_lugar.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <img src="../img/pasantia.png" alt="Project 2" class="project-img" />
+          </div>
+          <article></article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonios">
+    <h1 class="title">Testimonials</h1>
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <p>I have the pleasure of recognizing Julio Alexander Maravilla for his outstanding performance as a student
+          at the National Institute of Jiquilisco. Throughout the time she has been under my tutelage, Luisa Edelma
+          Bonilla has demonstrated exceptional dedication and commitment to her studies.</p>
+        <div class="author">
+          <strong>— Luisa Edelma Bonilla</strong><br>
+          Full-time teacher at the National Institute of Jiquilisco.
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p> Julio Maravilla has stood out for his ability to absorb and apply new knowledge in an
+          effective. Your grades reflect not only your intelligence, but also your hard work and perseverance.
+          Every task and project completed has been delivered with a level of detail and quality that goes beyond the
+          expectations.</p>
+        <div class="author">
+          <strong>— Ismenia Guadalupe de Portillo</strong><br>
+          Full-time teacher at the Ramiro Martinez Pineda School Center.
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>I have had the opportunity to work closely with Julio Alexander Maravilla on several projects and I can
+          say with complete certainty that your dedication and commitment have been fundamental to the success of our team.
+          Julio always contributes innovative ideas and effective solutions, demonstrating a deep understanding of the
+          topics covered in class.</p>
+        <div class="author">
+          <strong>— José Walberto Rivas</strong><br>
+          Computer Systems and Networks Engineering Intern
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p> Julio Maravilla has an excellent work ethic and is very organized, which has been key to meeting
+          with the deadlines and objectives of our projects. His ability to lead and at the same time listen and
+          Considering the opinions of all team members has been crucial to our collective success.</p>
+        <div class="author">
+          <strong>— Armando Ramos</strong><br>
+          Full-time teacher at the National Institute of Jiquilisco.
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>One of Julio Maravilla's most notable qualities is his ability to take initiative and lead.
+          our projects with confidence and efficiency. His meticulous approach and ability to plan and
+          organizing tasks have been crucial for our team to achieve outstanding results. It always comes
+          prepared and with clear ideas, which greatly facilitates the development of our work.</p>
+        <div class="author">
+          <strong>— Joan Steven Gomez</strong><br>
+          Computer Systems and Networks Engineering Student.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h1 class="title">Contact Form</h1>
+    <div class="container2">
+      <h2>Contact</h2>
+      <form id="contact-form" action="https://formsubmit.co/juliomaravilla47@gmail.com" method="POST"
+        onsubmit="return showSuccessMessage(event)">
+        <!-- Configuración para formsubmit.co -->
+        <input type="hidden" name="_next" value="https://juliomaravilla.netlify.app/assets/en/index_en">
+
+        <input type="hidden" name="_autoresponse" value="Gracias por tu mensaje, te responderemos pronto.">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Number phone:</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!--div class="footer-col">
+          <h4>company</h4>
+          <ul class="footer-end">
+            <li><a href="#"> Politica de Privacidad</a></li>
+            <li><a href="#"> Terminos y Condiciones</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </!--div-->
+        <div class="footer-col">
+          <h4>Legal Documents</h4>
+          <ul class="footer-end">
+            <li><a href="../en/Politica_de_privacidad.html"><i class="fa-solid fa-gavel"></i> Politics of Privacy</a>
+            </li>
+            <li><a href="../en/Terminos y condiciones.html"><i class="fa-solid fa-file-signature"></i> Terms
+                and Conditions</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i> JulioMaravilla47@gmail.com</a></li>
+            <li><a href=""><i class="fa-solid fa-square-phone"></i> (+503) 7070-6060</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>My Networks</h4>
+          <div class="social-links">
+            <a href="https://github.com/JulioMaravilla"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/juliomaravilla"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/+50370706060"><i class="fa-brands fa-square-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>Copyright &#169; 2024 Julio Maravilla. All rights reserved.</p>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var checkbox = document.querySelector('.check');
+        checkbox.addEventListener('change', function () {
+          if (!this.checked) {
+            window.location.href = 'https://juliomaravilla.netlify.app/'; // Cambia 'https://juliomaravilla.github.io/Portafolio_Julio/index.html' por la URL a la que deseas redirigir
+          }
+        });
+      });
+    </script>
+  </footer>
+  <script src="../js/scrip.js"></script>
+  </div>
+</body>
+</div>
+
+</html>
